@@ -1,0 +1,155 @@
+body{
+	/*top right bottom left */
+	width: 94%;
+	margin: 0px 3%;
+	background-color: #000000;
+}
+
+.view{
+	float: left;
+	width: 100%;
+	background-color: #F6F8F9;
+}
+
+.header{
+	float: left;
+	width: 95%;
+	height: 80px;
+	padding: 0px 2.5%;
+	background-color: #ffffff;
+	box-shadow: 0px 3px 5px #E1E7EB;
+}
+
+.container{
+	float: left;
+	width: 95%;
+	height: auto;
+	padding: 0px 2.5%;
+	 
+}
+
+.footer{
+	float: left;
+	width: 95%;
+	height: auto;
+	padding: 0px 2.5%;
+	margin-top: 40px;
+	text-align: center; 
+	color: #B0B3B2;
+}
+a img{
+	width: 50px;
+	height: 50px;
+	margin: 20px;
+	opacity: 0.8;
+	color: #ababab;
+}
+#logo{
+	float: left;
+	margin: 15px 0px;
+	width: 180px;
+	height: auto;
+}
+.menu{
+	float: right;
+}
+#bell{
+	float: right;
+	position: relative;
+	text-align: center;
+}
+#bell img{
+	width: 60px;
+	margin: 10px;
+	height: auto;
+}
+#num{
+	position: absolute;
+    top: 10px;
+    right: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #ff0000;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#user-icon{
+	float: right;
+	text-align: center;
+	line-height: 60px;	
+	margin: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #46F687;
+	color: #fff;
+
+}
+.info_mgs{
+	padding: 10px ;
+	margin-bottom: 35px;
+	background-color: #DAEDE1;
+}
+.info_mgs h4{
+	color: #4ECCC4;
+	font-size: 18px;
+	margin-bottom: -5px;
+}
+#link{
+	color: #4ECCC4;
+	background: none;
+	border: 1px solid #4ECCC4;
+	border-radius: 5px;
+	padding: 5px 15px;
+	cursor: pointer;
+}
+#link:focus{
+	outline: 0px;
+}
+/* blog style */
+.blog{
+	float: left;
+	width: 29%;
+	margin: 1%;
+	padding: 1.16%;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+.blog_head{
+	float: left;
+	width: 100%;
+}
+#blog_img{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin: 0px 20px 0px 0px;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 40px;
+	background-color: #B7BDB9;
+}
+#blog_title{
+	float: left;
+	opacity: 0.75;
+}
+#blog_name{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: -10px;
+}
+#price{
+	font-size: 15px;
+	font-weight: bold;
+}
+#price img{
+	width: 10px;
+	height: auto;
+	font-weight: bold;
+}
+#blog_desc{
+	float: left;
+	width: 100%;
+	color: #B0B3B2;
+}
