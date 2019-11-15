@@ -154,7 +154,7 @@ a img{
 	color: #B0B3B2;
 }
 
-@media only screen and (max-width: 600px){
+@media (min-width: 30px) and (max-width: 480px){
 	.blog{
 		width:98%;
 		padding:1%;
