@@ -153,3 +153,8 @@ a img{
 	width: 100%;
 	color: #B0B3B2;
 }
+
+@media only screen and (max-width: 600px){
+	.blog{
+		width:100%;
+		
